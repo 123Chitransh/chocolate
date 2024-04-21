@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #E4C59E;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  #chocolates {
+   
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .chocolate {
+    color: white;
+    text-align: center;
+    background-color:#803D3B;
+    padding: 10px;
+  }
+  
+  .chocolate :hover {
+    cursor: pointer;
+  }
+  
+  #custom-pack {
+    margin-top: 50px;
+  }
+  
+  #selected-chocolates {
+    list-style-type: none;
+  }
+  
+  #selected-chocolates li {
+    margin-bottom: 10px;
+  }
+  
+  
